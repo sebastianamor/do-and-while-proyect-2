@@ -15,7 +15,7 @@ do
     
     switch (Totales)
     {     
-        if ( i <= 5 ){
+       
         case 1: 
             
             Console.WriteLine($" tu numero es inferior a 5 {i}");
@@ -31,7 +31,7 @@ do
                 Console.WriteLine("No hay elementos para editar");
             }
             break;
-             }
+             
         case 3: 
             Console.WriteLine($"Repitiendo... Contador actual: {i}");
             break;
@@ -45,4 +45,4 @@ do
     }
 } while  ( Totales != 4);
 
-Console.WriteLine($"Resultados finales - Contador: {i}, Monstruos: {monster}, Héroes: {hero}");
+Console.WriteLine($"Resultados finales - Contador: {i}, Monstruos: ");
